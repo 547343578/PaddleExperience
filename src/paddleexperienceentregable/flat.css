@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-abr-2020, 18:18:05
+    Author     : Alex
+*/
+
+.root{
+    -fx-background-color: linear-gradient(to bottom left , gainsboro,transparent);
+}
+.label{
+    -fx-text-fill:black;
+    -fx-font-size:12pt;
+    
+}
+.button{
+    -fx-text-fill: black;
+    -fx-text-alignment: center;
+    -fx-background-color: lightgrey;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+    -fx-border-color:grey;
+
+}
+
+
+.button:hover {
+    -fx-background-color: dimgray;
+}
+#label_main{
+    -fx-font-family: "Segoe Script";
+    -fx-font-size: 18pt;
+    -fx-text-fill:ghostwhite;
+     -fx-font-weight:bold; 
+}

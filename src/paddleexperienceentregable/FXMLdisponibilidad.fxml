@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paddleexperienceentregable.ControllerDisponibilidad">
+   <children>
+      <TableView fx:id="tablaHoy" layoutX="74.0" layoutY="118.0" prefHeight="226.0" prefWidth="466.0" AnchorPane.bottomAnchor="55.599999999999994" AnchorPane.leftAnchor="74.0" AnchorPane.rightAnchor="59.60000000000002" AnchorPane.topAnchor="118.0">
+         <columns>
+            <TableColumn fx:id="hora" prefWidth="160.0" text="Hora" />
+            <TableColumn fx:id="login" minWidth="0.79998779296875" prefWidth="148.7999725341797" text="Login" />
+            <TableColumn fx:id="pista" prefWidth="158.4000244140625" text="Pista" />
+         </columns>
+      </TableView>
+      <Label fx:id="fechaHoy" alignment="CENTER" layoutX="269.0" layoutY="57.0" prefHeight="43.0" prefWidth="142.0" text="Label" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

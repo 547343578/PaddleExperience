@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paddleexperienceentregable.ControllerAutenticarse">
+   <children>
+      <GridPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="185.00000762939453" minWidth="10.0" prefWidth="10.99998779296875" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.1999755859375" minWidth="10.0" prefWidth="164.0000244140625" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="233.0" minWidth="10.0" prefWidth="119.9999755859375" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="111.20001220703125" minWidth="0.0" prefWidth="56.60002441406249" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="87.80001831054688" minHeight="0.0" prefHeight="26.399995803833008" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="198.3999755859375" minHeight="10.0" prefHeight="135.1999755859375" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="111.99999389648437" minHeight="10.0" prefHeight="68.0000244140625" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="18.0" prefWidth="108.0" text="Contraseña" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="18.0" prefWidth="68.0" text="Usuario" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <TextField fx:id="usuario" prefHeight="26.0" prefWidth="125.0" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <PasswordField fx:id="contraseña" prefHeight="26.0" prefWidth="126.0" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+            <Button mnemonicParsing="false" onAction="#login" text="Login" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
